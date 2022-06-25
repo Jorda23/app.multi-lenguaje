@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(10, 41, 82);
+}
+
+.banderas button {
+	border: none;
+	cursor: pointer;
+	background: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	width: 70px;
+	margin-left: 10px;
+}
+
+.banderas button img {
+	width: 100%;
+}
+
+.banderas button:hover{
+	opacity: 0.2;
+}
